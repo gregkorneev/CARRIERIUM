@@ -6,7 +6,7 @@
 
 Многопользовательская браузерная 3D-игра о профессиях. Игрок исследует центральную площадь, заходит в профессиональные станции, выполняет практические задания и разговаривает с наставниками. Проект рассчитан на один сервер в локальной сети или игру на том же компьютере.
 
-**Состояние:** работающий демонстрационный прототип. В него входят центральный город и пять станций: пожарная часть, пекарня, цветочная мастерская, радио и музыкальная школа. Текущая архитектура, карта Wiki и границы реализации описаны в [GitHub Wiki](https://github.com/gregkorneev/kidburg/wiki).
+**Состояние:** работающий демонстрационный прототип. В него входят центральный город и пять станций: пожарная часть, пекарня, цветочная мастерская, радио и музыкальная школа. Текущая архитектура, карта Wiki и границы реализации описаны в [GitHub Wiki](https://github.com/gregkorneev/CARRIERIUM/wiki).
 
 ## Скриншоты
 
@@ -48,8 +48,8 @@
 Для первичной установки из GitHub:
 
 ```bash
-git clone https://github.com/gregkorneev/kidburg.git
-cd kidburg
+git clone https://github.com/gregkorneev/CARRIERIUM.git
+cd CARRIERIUM
 npm ci
 npm run setup
 npm run world:build
@@ -126,9 +126,9 @@ ADMIN_PASSWORD='замените-на-свой-пароль' npm start
 | `tools/` | генератор города и инструменты разработки |
 | `tests/` | автоматические тесты Node.js |
 | `docs/` | инструкции, проектный контекст и описание подсистем |
-| `../kidburg.wiki/` | Клон GitHub Wiki после `npm run wiki:pull`; его можно открыть как Obsidian vault |
+| `../CARRIERIUM.wiki/` | Клон GitHub Wiki после `npm run wiki:pull`; его можно открыть как Obsidian vault |
 
-Начать чтение Wiki можно с [Home](https://github.com/gregkorneev/kidburg/wiki). В ней есть [карта проекта](https://github.com/gregkorneev/kidburg/wiki/Project-Map) и [инструкция для Obsidian](https://github.com/gregkorneev/kidburg/wiki/Obsidian-Guide).
+Начать чтение Wiki можно с [Home](https://github.com/gregkorneev/CARRIERIUM/wiki). В ней есть [карта проекта](https://github.com/gregkorneev/CARRIERIUM/wiki/Project-Map) и [инструкция для Obsidian](https://github.com/gregkorneev/CARRIERIUM/wiki/Obsidian-Guide).
 
 ## Границы текущего прототипа
 
