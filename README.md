@@ -1,8 +1,29 @@
 # Город профессий
 
+<p align="center">
+  <img src="assets/branding/careerium-logo.png" alt="Логотип CARRIERIUM" width="200">
+</p>
+
 Многопользовательская браузерная 3D-игра о профессиях. Игрок исследует центральную площадь, заходит в профессиональные станции, выполняет практические задания и разговаривает с наставниками. Проект рассчитан на один сервер в локальной сети или игру на том же компьютере.
 
 **Состояние:** работающий демонстрационный прототип. В него входят центральный город и пять станций: пожарная часть, пекарня, цветочная мастерская, радио и музыкальная школа. Текущая архитектура, карта Wiki и границы реализации описаны в [GitHub Wiki](https://github.com/gregkorneev/kidburg/wiki).
+
+## Скриншоты
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-overview-se.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-overview-se.png" alt="Центральная площадь" width="100%"></a><br><sub>Центральная площадь</sub></td>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-b-fire.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-b-fire.png" alt="Пожарная часть" width="100%"></a><br><sub>Пожарная часть</sub></td>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-b-bakery.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-b-bakery.png" alt="Пекарня" width="100%"></a><br><sub>Пекарня</sub></td>
+    </tr>
+    <tr>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-b-flower.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-b-flower.png" alt="Цветочная мастерская" width="100%"></a><br><sub>Цветочная мастерская</sub></td>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-b-radio.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-b-radio.png" alt="Радио" width="100%"></a><br><sub>Радио</sub></td>
+      <td align="center" width="33%"><a href="docs/graphics-overhaul/plaza-screenshots/after-b-music.png"><img src="docs/graphics-overhaul/plaza-screenshots/after-b-music.png" alt="Музыкальная школа" width="100%"></a><br><sub>Музыкальная школа</sub></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Возможности
 
@@ -94,5 +115,3 @@ ADMIN_PASSWORD='замените-на-свой-пароль' npm start
 ## Границы текущего прототипа
 
 Игра предназначена для одного сервера в локальной сети. В этой версии нет общего текстового чата игроков, анкеты интересов, рекомендаций профессий, портфолио достижений и WebXR. Для продолжения разработки прочитайте [`AGENTS.md`](AGENTS.md) и [указатель документации](docs/README.md).
-
-![Центральная площадь](docs/graphics-overhaul/screenshots/after-overview.png)
